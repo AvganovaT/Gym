@@ -456,6 +456,7 @@ body {
 
 .timing__grid-item:hover .timing__grid-item-text {
     max-height: 280px;
+    transition: .3s;
 }
 
 
