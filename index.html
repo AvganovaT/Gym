@@ -48,13 +48,13 @@
                     <div class="banner__info">
                         <h1 class="banner__title">
                             онлайн тренировки любой сложности
-                            <span>>&nbsp;15&nbsp;&nbsp;тренировок</span>
+                            <span>&gt; 15&nbsp;&nbsp;тренировок</span>
                         </h1>
                         <p class="banner__text">в области спортивной&nbsp; физиологии и нутрициологии</p>
                         <button class="banner__btn" type="button">
                             <span>Узнать подробнее</span>
                         </button>
-                        <a class="arrow" href=""></a>
+                        <a class="arrow" href="#events"></a>
                     </div>
                     <div class="banner__logo">
                         <div class="banner__logo-left"></div>
@@ -71,7 +71,7 @@
 
         <section>
             <div class="container">
-                <div class="event">
+                <div class="event" id="events">
                     <div>
                         <h2 class="event__title">Ближайшие события</h2>
                     </div>
@@ -203,7 +203,7 @@
                     <div class="about__info">
                         <h2 class="about__title">О компании</h2>
                         <p class="about__text">Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь&nbsp; с нами и вы сами увидите, что мы проводим <br />не только онлайн-тренировки.</p>
-                        <button class="about__btn">Записаться</button>
+                        <button class="about__btn" onclick="openModal()">Записаться</button>
                     </div>
                     <div class="about__img">
                         <div class="about__img-gr"></div>
@@ -264,6 +264,30 @@
             </div>
         </div>
     </footer>
+
+    <!-- MODAL -->
+
+    <div class="modal__bg" id="modal__bg">
+        <div class="modal" id="modal">
+            <div class="modal__info">
+                <h3 class="modal__title">Заявка на участие «Марафон выносливости»</h3>
+                <p class="modal__text">Заполните все поля, и мы пришлем информацию в ближайшее время</p>
+            </div>
+            <form action="#">
+                <div class="form__modal">
+                    <input class="modal__form" type="email" placeholder="Ваш e-mail">
+                    <input class="modal__form" type="tel" placeholder="Ваш номер телефона">
+                    <button class="modal__form-btn" type="submit">Отправить</button>
+                </div>
+            </form>
+            <button class="modal__close" onclick="closeModal()"></button>
+        </div>
+    </div>
+    
+
+    <!-- SCRIPTS -->
+
+    <script src="js/index.js"></script>
 
 </body>
 </html>
