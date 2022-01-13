@@ -511,6 +511,33 @@ body {
     margin-left: 15px;
 }
 
+.form__email:focus {
+    outline: none;
+}
+
+.form__email:disabled {
+    border: 1px solid #F3F3F3;
+    background: #F3F3F3;
+ }
+
+ .form__email:invalid {
+    border: 1px solid #AE0303;
+ }
+
+ .form__email:invalid + .form__email-p {
+     display: block;
+ }
+
+ .form__email-p {
+    display: none;
+    text-align: left;
+    color: #AE0303;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 3px;
+    margin-left: 15px;
+ }
+
 .form__email::placeholder {
     font-size: 18px;
     line-height: 150%;
@@ -933,6 +960,33 @@ footer {
     padding-left: 25px;
 }
 
+.modal__form:focus {
+    outline: none;
+}
+
+.modal__form:disabled {
+    border: 1px solid #F3F3F3;
+    background: #F3F3F3;
+ }
+
+ .modal__form:invalid {
+    border: 1px solid #AE0303;
+ }
+
+ .modal__form:invalid + .modal__form-p {
+     display: block;
+ }
+
+ .modal__form-p {
+    display: none;
+    text-align: left;
+    color: #AE0303;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 3px;
+    margin-left: 15px;
+ }
+
 .modal__form::placeholder {
     font-size: 18px;
     line-height: 150%;
@@ -979,3 +1033,8 @@ footer {
     top: 30px;
     right: 30px;
 }
+
+
+/* MEDIA */
+
+

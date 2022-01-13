@@ -182,7 +182,10 @@
                             <h3 class="form__title">Подпишитесь на рассылку</h3>
                             <form action="#">
                                 <div class="form__flex">
-                                    <input class="form__email" type="email" placeholder="Ваш e-mail">
+                                    <div>
+                                        <input class="form__email" type="email" name="email" placeholder="Ваш e-mail">
+                                        <p class="form__email-p">Некорректный адрес e-mail</p>
+                                    </div>
                                     <button class="form__btn" type="submit">ПОДПИСАТЬСЯ</button>
                                 </div>
                                 <div class="form__check">
@@ -275,8 +278,16 @@
             </div>
             <form action="#">
                 <div class="form__modal">
-                    <input class="modal__form" type="email" placeholder="Ваш e-mail">
-                    <input class="modal__form" type="tel" placeholder="Ваш номер телефона">
+                    <div>
+                        <input class="modal__form" type="email" name="email" placeholder="Ваш e-mail">
+                        <p class="modal__form-p">Некорректный адрес e-mail</p>
+                    </div>
+                    <div>
+                        <input  class="modal__form" type="tel" name="phone" pattern="[+]7\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" placeholder="Ваш номер телефона">
+                        <p class="modal__form-p">Некорректный номер телефона</p>
+                    </div>
+                    
+                    
                     <button class="modal__form-btn" type="submit">Отправить</button>
                 </div>
             </form>
