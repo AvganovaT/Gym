@@ -27,3 +27,16 @@ function closeModal() {
     document.getElementById("modal").style.display = "none";
     document.getElementById("modal__bg").style.display = "none";
 }
+
+
+// Burger Menu
+
+function openBurger() {
+    document.getElementById("burger").style.display = "block";
+    document.getElementById("burger__bg").style.display = "block";
+}
+
+function closeBurger() {
+    document.getElementById("burger").style.display = "none";
+    document.getElementById("burger__bg").style.display = "none";
+}
