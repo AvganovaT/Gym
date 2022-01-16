@@ -312,7 +312,7 @@ main {
 
 .event__item-type {
     max-width: 122px;
-    padding: 10px 0;
+    padding: 10px 20px;
     margin-bottom: 0;
     text-align: center;
     font-size: 18px;
