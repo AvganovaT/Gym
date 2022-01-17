@@ -425,7 +425,7 @@ main {
 }
 
 .timing__grid-item:nth-child(2) img {
-    width: 42;
+    width: 42px;
     height: 85px;
 }
 
