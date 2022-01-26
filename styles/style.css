@@ -1119,6 +1119,10 @@ footer {
     font-size: 16px;
 }
 
+.burger__menu .header__nav a:hover {
+    border-bottom: none;
+}
+
 .burger__menu .header__nav li::after {
     content: '';
     display: block;
@@ -1171,12 +1175,16 @@ footer {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1105px) {
 
     /* BANNER */
 
     .banner__title {
         font-size: 38px;
+    }
+
+    .banner__logo {
+        right: -50px;
     }
 }
 
@@ -1318,6 +1326,7 @@ footer {
 
     .about {
         margin-top: 80px;
+        gap: 40px;
     }
 
     .about__title {
@@ -1343,6 +1352,7 @@ footer {
         display: flex;
         justify-content: space-between;
         width: 90%;
+        max-width: 461px;
     }
 }
   
@@ -1569,7 +1579,7 @@ footer {
     }
 
     .event__item-three {
-        max-height: 336px;
+        max-height: 100vh;
     }
 
     .event__item-date {
@@ -1584,9 +1594,10 @@ footer {
     }
 
     .event__item-btn {
-        font-size: 12px;
+        font-size: 10px;
         top: 130px;
-        margin-left: 20px;
+        margin-left: 15px;
+        padding: 10px 20px;
     }
 
     .event__item-type {
@@ -1720,6 +1731,10 @@ footer {
     .footer__info p {
         font-size: 10px;
     }
+
+    .footer__l {
+        max-width: 341px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -1743,6 +1758,11 @@ footer {
     .event__item-title {
         font-size: 12px;
         max-width: 90px;
+    }
+
+    .event__item-btn {
+        font-size: 9px;
+        margin-left: 10px;
     }
 
     /* TIMING */
