@@ -66,9 +66,9 @@ main {
     gap: 30px;
 }
 
-.header__society-IN {
+.header__society-in {
     display: block;
-    background-image: url(../images/header/IN.svg);
+    background-image: url(../images/header/in.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -77,9 +77,9 @@ main {
     transition: .3s;
 }
 
-.header__society-FB {
+.header__society-fb {
     display: block;
-    background-image: url(../images/header/FB.svg);
+    background-image: url(../images/header/fb.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -88,8 +88,8 @@ main {
     transition: .3s;
 }
 
-.header__society-IN:hover,
-.header__society-FB:hover {
+.header__society-in:hover,
+.header__society-fb:hover {
     transform: scale(1.25);
 }
 
@@ -480,7 +480,7 @@ main {
 }
 
 .timing__grid-item:hover {
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     box-shadow: 0px 4px 30px rgba(43, 53, 65, 0.2);
 }
 
@@ -879,7 +879,7 @@ footer {
     gap: 30px;
 }
 
-.footer__society-IN {
+.footer__society-in {
     display: block;
     background-image: url(../images/header/IN.svg);
     background-repeat: no-repeat;
@@ -890,7 +890,7 @@ footer {
     transition: .3s;
 }
 
-.footer__society-FB {
+.footer__society-fb {
     display: block;
     background-image: url(../images/header/FB.svg);
     background-repeat: no-repeat;
@@ -901,8 +901,8 @@ footer {
     transition: .3s;
 }
 
-.footer__society-IN:hover,
-.footer__society-FB:hover {
+.footer__society-in:hover,
+.footer__society-fb:hover {
     transform: scale(1.25);
 }
 
@@ -1148,8 +1148,8 @@ footer {
     margin-right: 30px;
 }
 
-.burger__menu .header__society-IN,
-.burger__menu .header__society-FB {
+.burger__menu .header__society-in,
+.burger__menu .header__society-fb {
     width: 26px;
     height: 26px;
 }
@@ -1538,8 +1538,8 @@ footer {
         height: 24px;
     }
 
-    .header__society-IN,
-    .header__society-FB {
+    .header__society-in,
+    .header__society-fb {
         width: 26px;
         height: 26px;
     }
