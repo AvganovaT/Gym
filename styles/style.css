@@ -809,7 +809,7 @@ footer {
     align-items: center;
 }
 
-.footer__item nav {
+.footer__navigation {
     flex-basis: 63%;
 }
 
@@ -884,7 +884,7 @@ footer {
 
 .footer__society-in {
     display: block;
-    background-image: url(../images/header/IN.svg);
+    background-image: url(../images/header/in.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -895,7 +895,7 @@ footer {
 
 .footer__society-fb {
     display: block;
-    background-image: url(../images/header/FB.svg);
+    background-image: url(../images/header/fb.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
